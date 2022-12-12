@@ -1,0 +1,85 @@
+.table{
+    text-transform: capitalize;
+}
+.table thead tr th{
+    font-weight: 600;
+    color: #7b7b7b;
+}
+.thead{
+    border-top: 1px solid #e0dbdb;
+    border-bottom: 1px solid #e0dbdb;
+}
+.table td{
+    color:var(--color-ming);
+    font-weight: 700;
+}
+.table img{
+    object-fit:cover;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+}
+
+.table .img-holder{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+}
+
+.qty{
+    background-color: #fff !important;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3d3d3d;
+    border-radius: 3px;
+    padding: 0px 0px 3px 2px;
+    width: 50px;
+}
+
+.qty span{
+    font-size: 10px;
+    padding-right:1px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height:10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius:10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+    background: #888;
+    border-radius:10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.btn{
+    color: rgb(90, 90, 90) !important;
+    font-weight: 800 !important;
+    cursor:pointer;
+}
+.btn:hover{
+    font-size:110%;
+}
+.btnDelete{
+    color: #e34545 !important;
+    font-weight: 800 !important;
+    cursor:pointer;
+}
+.btnDelete:hover{
+    font-size:110%;
+}
