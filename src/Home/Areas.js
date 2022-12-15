@@ -31,7 +31,7 @@ function BasicExample() {
       <Card.Body>
         <Card.Title>Kharadar</Card.Title>
        
-        <Button style={{backgroundColor:"#058b80"}}>Show Markets</Button>
+        <Button style={{backgroundColor:"#058b80 !important"}}>Show Markets</Button>
       </Card.Body>
     </Card>
     </div>
